@@ -8,17 +8,38 @@
     position: fixed;
     width: 100%;
     z-index: 10;
-
+    background-color: rgb(35, 35, 35);
+}
+#text_color{
+    color: white;
+}
+#text_color1{
+    color: rgb(216, 216, 216);
+}
+#text_Menu{
+    color: rgb(173, 173, 173);
 }
 .container{
     padding-top: 60px;
 }
 #add1{
     margin-top: 10px;
+
 }
 .carousel-item{
     width: 500px;
     height: 700px;
 }
-
-    
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#back_color{
+    background-color: rgb(35, 35, 35);
+}
+#back_card{
+    background-color: rgb(50, 50, 50);
+}
+#back_footer{
+    background-color: rgb(35, 35, 35);
+}
