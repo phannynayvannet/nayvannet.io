@@ -66,5 +66,9 @@
     .carousel-item{
         height: 400px;
     }
-
+}
+@media screen and (max-width: 414px){
+    .carousel-item{
+        height: 450px;
+    }
 }
