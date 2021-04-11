@@ -21,6 +21,7 @@
   <!-- MDB -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js">
   </script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 </head>
 
 <body style="background-color: #001810;">
@@ -48,13 +49,12 @@
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-link active" href="index.html" id="text_Menu">Home</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html" id="text_Menu">Home</a>
           <a class="nav-link" href="About.html" id="text_Menu">About</a>
           <a class="nav-link" href="Service.html" id="text_Menu">Service</a>
           <a class="nav-link" href="Contact.html" id="text_Menu">Contact</a>
-
         </div>
       </div>
     </div>
@@ -69,14 +69,19 @@
 
         <h1 class="my-4 " id="text_color">NET.Shop</h1>
         <div class="list-group">
-          <a href="#" class="list-group-item d-flex justify-content-between align-items-center" style="color: rgb(173, 173, 173); background-color: rgb(35, 35, 35);">Shoes<span class="badge bg-danger rounded-pill">14</span></a>
-          <a href="#" class="list-group-item d-flex justify-content-between align-items-center" style="color: rgb(173, 173, 173); background-color: rgb(35, 35, 35);">Cloths <span class="badge bg-danger rounded-pill">2</span></a>
-          <a href="#" class="list-group-item d-flex justify-content-between align-items-center" style="color: rgb(173, 173, 173); background-color: rgb(35, 35, 35);">Bags <span class="badge bg-danger rounded-pill">1</span></a>
+          <a href="#" class="list-group-item d-flex justify-content-between align-items-center" id="cati"  >Shoes<span class="badge bg-danger rounded-pill">14</span></a>
+          <a href="#" class="list-group-item d-flex justify-content-between align-items-center" id="cati"  >Cloths <span class="badge bg-danger rounded-pill">2</span></a>
+          <a href="#" class="list-group-item d-flex justify-content-between align-items-center" id="cati"  >Bags <span class="badge bg-danger rounded-pill">1</span></a>
         </div>
-
+        <div>
+          <img src="./Img_mini/3a5fcd7b-7ef7-456b-9291-3ba233acb755.gif" alt="" width="100%" style="padding-top: 20px;">
+          <img src="./Img_mini/50 eye-catching magazine layout ideas _ Canva.jpg" alt="" width="100%" style="padding-top: 20px;">
+          <img src="./Img_mini/052618-MemorialDay_gif 1,300×2,199 pixels _ Start your Online Empire Today at www.socialkashkows.com _.com _.com _" alt="" width="100%" style="padding-top: 20px; padding-bottom: 20px;">
+          <img src="./Img_mini/Coupon Design_ Sale Icon. Shopping Concept. Shopping Concept. Shopping Concept" alt="" width="100%" style="padding-top: 20px;">
+        </div>
       </div>
       <!-- /.col-lg-3 -->
-
+      
       <div class="col-lg-9">
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -120,16 +125,16 @@
         <!-- head card 1 -->
         <div class="card" id="back_card">
           <div class="card-header" id="text_color">
-            Shoes
+             Shoes
+            <a href="#"> <i class="bi bi-chevron-double-right" style="float: right; color: white;"></i></a>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4" id="add1">
               <div class="card h-100" id="back_color">
                 <a href="#"><img class="card-img-top" src="./Img_mini/Women Sandals - Flats Soft Summer Beach Footwear (SS2) - white _ 37.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title"> $25.98 <del> $45.99</del></h5>
+                  <p class="card-text">Women Sandals - Flats Soft Summer Beach Footwear (SS2) - white / 37</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -141,9 +146,8 @@
               <div class="card h-100" id="back_color">
                 <a href="#"><img class="card-img-top" src="./Img_mini/Attractive Lightweight Running Shoes.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$14.99</h5>
+                  <p class="card-text">Attractive Lightweight Running Shoes</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -155,9 +159,8 @@
               <div class="card h-100" id="back_color">
                 <a href="#"><img class="card-img-top" src="./Img_mini/Men's Trainers Athletic Shoes Sporty Casual Athletic Daily Running Shoes Walking Shoes Mesh Breathable White Black Fall Spring  Summer.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$29.99</h5>
+                  <p class="card-text"> Men's Trainers Athletic Shoes Sporty Casual Athletic Daily Running Shoes Walking Shoes Mesh Breathable White Black Fall Spring Summer</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -171,15 +174,15 @@
         <div class="card" id="back_card">
           <div class="card-header" id="text_color">
             Bag
+            <a href="#"> <i class="bi bi-chevron-double-right" style="float: right; color: white;"></i></a>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4" id="add1">
               <div class="card h-100" id="back_color">
                 <a href="#"><img class="card-img-top" src="./Img_mini/Designer Clothes, Shoes & Bags for Women _ SSENSE.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$49.99</h5>
+                  <p class="card-text">SheIn(sheinside) Pink Flap PU Crossbody Chain Bag (76 ILS)</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -191,9 +194,8 @@
               <div class="card h-100" id="back_color">
                 <a href="#"><img class="card-img-top" src="./Img_mini/Women Canvas Stitching Color Student Bag Computer Bag Leisure Backpack Travel Bag.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$19.99</h5>
+                  <p class="card-text">Women Canvas Stitching Color Student Bag Computer Bag Leisure Backpack Travel Bag</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -205,9 +207,8 @@
               <div class="card h-100" id="back_color">
                 <a href="#"><img class="card-img-top" src="./Img_mini/2018 Multifunction Best Travel Backpack Male Female Japan School Student Men Women Everyday Backpack Shoulder Bag Girl Mochila _ Touchy Style.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$34.99</h5>
+                  <p class="card-text">Item Type:BackpacksBackpacks Type:SoftbackLining Material:PolyesterInterior:Shoe Pocket,Computer Interlayer,Interior Zipper Pocket,Cell Phone Pocket.</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -221,15 +222,15 @@
         <div class="card" id="back_card">
           <div class="card-header" id="text_color">
             Clothes
+            <a href="#"> <i class="bi bi-chevron-double-right" style="float: right; color: white;"></i></a>
           </div>
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4" id="add1">
               <div class="card h-100" id="back_color">
-                <a href="#"><img class="card-img-top" src="./Img_mini/Women Sandals - Flats Soft Summer Beach Footwear (SS2) - white _ 37.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="./Img_mini/Garden Explorer Mustard Yellow Floral Print Mini Dress.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$54.99</h5>
+                  <p class="card-text">Lulus Exclusive! Go wandering through the wildflowers in the Lulus Garden Explorer Mustard Yellow Floral Print Mini Dress!</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -239,11 +240,11 @@
   
             <div class="col-lg-4 col-md-6 mb-4" id="add1">
               <div class="card h-100" id="back_color">
-                <a href="#"><img class="card-img-top" src="./Img_mini/Women Sandals - Flats Soft Summer Beach Footwear (SS2) - white _ 37.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="./Img_mini/La nueva_ Imagina con Christopher Vélez_.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$19.99</h5>
+                  <p class="card-text">Design Ditsy Print Ruffles Belt Wrap Dress
+                    Material: Polyester Gender: Women Item Type:Dress Color: Red Size: S,M,L,XL</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -253,11 +254,10 @@
   
             <div class="col-lg-4 col-md-6 mb-4" id="add1">
               <div class="card h-100" id="back_color">
-                <a href="#"><img class="card-img-top" src="./Img_mini/Women Sandals - Flats Soft Summer Beach Footwear (SS2) - white _ 37.jpg" alt=""></a>
+                <a href="#"><img class="card-img-top" src="./Img_mini/blazer dress outfits men.jpg" alt=""></a>
                 <div class="card-body" id="text_color1">
-                  <h5 class="card-title">$24.99</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                    content. This content is a little bit longer.</p>
+                  <h5 class="card-title">$79.99</h5>
+                  <p class="card-text">WULFUL Men’s Suit Slim Fit One Button 3-Piece Suit Blazer Dress Business Wedding Party Jacket Vest & Pants</p>
                 </div>
                 <div class="card-footer" >
                   <small id="text_color1">Last updated 3 mins ago</small>
@@ -267,22 +267,16 @@
 
           </div>
         </div>
-        
-
-        
         <!-- /.row -->
-
       </div>
       <!-- /.col-lg-9 -->
-
     </div>
     <!-- /.row -->
-
   </div>
   <!-- footer -->
   <footer class="footer mt-auto py-3 " id="back_footer">
     <div class="container" style="text-align: center;">
-      <span class="text-muted">Copyright © by NET.Shop 2021.</span>
+      <span id="text_color1">Copyright © by NET.Shop 2021.</span>
     </div>
   </footer>
   <!-- footer -->

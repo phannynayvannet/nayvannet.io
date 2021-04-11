@@ -16,8 +16,15 @@
 #text_color1{
     color: rgb(216, 216, 216);
 }
+
 #text_Menu{
     color: rgb(173, 173, 173);
+}
+#text_Menu:hover{
+    color: white;
+}
+#text_Menu:active{
+    color: white;
 }
 .container{
     padding-top: 60px;
@@ -42,4 +49,22 @@
 }
 #back_footer{
     background-color: rgb(35, 35, 35);
+}
+#cati{
+    background-color: rgb(35, 35, 35);
+    color: rgb(173, 173, 173);
+}
+#cati:hover{
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .col-lg-3{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px){
+    .carousel-item{
+        height: 400px;
+    }
+
 }
