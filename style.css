@@ -72,3 +72,37 @@
         height: 450px;
     }
 }
+#you{
+    color: rgba(255, 0, 0, 0.623);
+    font-size: 30px;
+    padding: 10px;
+}
+#tele{
+    color: rgba(38, 182, 207, 0.801);
+    font-size: 30px;
+    padding: 10px;
+}
+#face{
+    color: rgba(40, 95, 214, 0.801);
+    font-size: 30px;
+    padding: 10px;
+}
+#you:hover{
+    color: red;
+}
+#tele:hover{
+    color: rgb(42, 197, 224);
+}
+#face:hover{
+    color: rgb(68, 121, 236);
+}
+#socail{
+    float: right;
+    padding-right: 40px;
+}
+@media screen and (max-width: 375px) {
+    #socail{
+        padding-right: 10px;
+    }
+    
+}
