@@ -210,3 +210,14 @@
     border-radius: 20px;
     margin: 20px 0;
 }
+@media screen and (max-width:800px) {
+    .card_buy{
+        display: block;
+    }
+    .info{
+        width: 100%;
+    }
+    .img_buy{
+        width: 100%;
+    }
+}
