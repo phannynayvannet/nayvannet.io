@@ -37,6 +37,9 @@
     width: 500px;
     height: 700px;
 }
+.col-lg-9{
+    padding-bottom: 30px;
+}
 .card{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -78,7 +81,7 @@
     padding: 10px;
 }
 #tele{
-    color: rgba(38, 182, 207, 0.801);
+    color: rgba(167, 40, 8, 0.692);
     font-size: 30px;
     padding: 10px;
 }
@@ -91,7 +94,7 @@
     color: red;
 }
 #tele:hover{
-    color: rgb(42, 197, 224);
+    color: rgba(201, 56, 20, 0.842);
 }
 #face:hover{
     color: rgb(68, 121, 236);
@@ -100,9 +103,110 @@
     float: right;
     padding-right: 40px;
 }
-@media screen and (max-width: 375px) {
+#footer_shop{  
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 30px;
+    float: left;
+}
+#foo{
+    color: white;
+}
+@media screen and (max-width: 500px) {
     #socail{
-        padding-right: 10px;
+        text-align: center;
+        padding-right: 0px;
+        float: none;
     }
+    .footer,#footer_shop{
+        text-align: center;
+        padding-left: 0px;
+        float: none;  
+    }   
+}
+#contact{
+    margin-left: 10px;
+    color: rgb(216, 216, 216);
+}
+#about{
+    color: rgb(216, 216, 216);
+}
+.shoes{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 250px;
+    margin: 3px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1); 
+    transition: 1s;
+}
+.box img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 3;
+}
+#list_cati{
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.container_buy{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 35, 35);
+    color: rgb(216, 216, 216);
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.card_buy{
+    border-radius: 10px;
+    display: flex;
+}
+.img_buy{
+    width: 50%;
+    padding: 10px;
+}
+.img_buy img {
+    border-radius: 10px;
+}
+.info{
+    width: 50%;
+    padding: 10px;
+}
+.buttons{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
     
+}
+.buttons button{
+    width: 45%;
+    border-radius: 10px;
+}
+.buttons button:hover{
+    color: white;
+    background-color: rgb(173, 173, 173);
+}
+.container_cart{
+    height: 100vh;
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+    color: rgb(216, 216, 216);
+    border-radius: 20px;
+    margin: 20px 0;
 }
